@@ -1,0 +1,100 @@
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height: 100%;width: 100%;font-size: 100%;line-height: 1;font-size: 14px;-ms-text-size-adjust: 100% ;-moz-text-size-adjust: 100%;}
+input,button,textarea{font-family: inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding: 0; border: 0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul,li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-family: inherit; font-weight: 400;}
+/* ----------------------------------------------------------------- */
+body{
+    background: #e8e8e8 url(../img/css_template.svg) 50%  100px /80% no-repeat;
+    color: #273d46;
+    font-size: 24px;
+    font-family: "Times New Roman";
+
+
+}
+.main_content_center{
+    width:70%;
+    margin: 125px auto;
+    padding-top: 45px;
+}
+h1{
+    font-size: 14px;
+    line-height: 40px;
+    color: #9fa8ab;
+    font-family: "Arial";
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+h2{
+    font-size: 36px;
+    line-height: 50px;
+    color: #273d46;
+    font-family: "Times New Roman";
+    text-align: center;
+    margin-bottom: 80px;
+}
+p.img{
+    width: 100%;
+    background: #ffff;
+    padding: 10px;
+    margin-bottom: 100px;
+}
+img{
+   width: 100%;
+}
+
+p{
+    font-size: 24px;
+    line-height: 40px;
+    color: #273d46;
+    /*font-family: "Times New Roman";*/
+}
+.text>p{
+    margin-bottom: 50px;
+}
+ul{
+    font-size: 20px;
+    font-family: "Arial";
+    line-height: 36px;
+    background: inherit;
+}
+ul>li{
+    background: #e8e8e8 url("../img/css_template.png") 0 50% no-repeat;
+    padding-left: 30px;
+
+}
+ul>li:nth-child(2){
+    color: #80b7b3;
+    font-style: italic;
+}
+ul>li:nth-child(3){
+    color: #273d46;
+    font-weight: 600;
+}
+ul>li:nth-child(4){
+    text-decoration: line-through;
+    color: rgba(39, 61, 70, 0.3);
+}
+button{
+    padding: 15px 30px;
+    background: #80b7b3;
+    color: #ffffff;
+    border-radius: 30px;
+    margin: 60px auto 100px 0;
+    font-size: 14px;
+    text-transform: uppercase;
+
+}
+
+
