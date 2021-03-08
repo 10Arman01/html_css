@@ -22,6 +22,7 @@ body{
     line-height: 36px;
     color: #273d46;
 
+
 }
 .block{
     margin: 70px auto;
@@ -35,8 +36,15 @@ ul{
     margin-top: 20px;
 }
 ul>li{
+
+}
+ul>li::before{
+    content: "";
+    width: 20px;
+    height: 20px;
     background: url("../img/blue_icone.png") no-repeat left/20px;
-    padding-left: 25px;
+    display: inline-block;
+    margin-right: 5px;
 }
 ul>li:first-child{
     text-decoration: line-through;
@@ -51,8 +59,14 @@ ul>li:nth-child(2){
 }
 ul>li:nth-child(2):hover{
     font-weight: 300;
-    background: url("../img/red_icone.png") no-repeat left/20px;
     color: #d55a5a;
+}
+ul>li:nth-child(2):hover::before{
+    content: "";
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background: url("../img/red_icone.png") no-repeat left/20px;
 }
 ul>li:nth-child(3){
     font-style: italic;
@@ -87,9 +101,11 @@ form>.classButton:hover{
 form>.classButton:active{
     background-color: #818181;
 }
-form>.classButton>span{
+form>.classButton::after{
+    content: "→";
     font-weight: bold;
     font-size: 25px;
+    margin-left: 5px;
 }
 form>.inputText{
     font-size: 20px;
@@ -102,6 +118,16 @@ form>.inputText:focus{
     font-size: 20px;
     border:1px solid #7fbdd5;
     box-shadow:0 0 15px rgba(127, 189, 213, 0.9) ;
+}
+.text_1,.text_2{
+    margin-top: 30px;
+}
+.text_1::first-line{
+  color:red;
+}
+.text_2:first-letter{
+   color:red;
+    font-size: 50px;
 }
 
 
