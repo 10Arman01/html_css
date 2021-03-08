@@ -1,0 +1,108 @@
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height: 100%;width: 100%;font-size: 100%;line-height: 1;font-size: 14px;-ms-text-size-adjust: 100% ;-moz-text-size-adjust: 100%;}
+input,button,textarea{font-family: inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding: 0; border: 0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul,li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-family: inherit; font-weight: 400;}
+/* ----------------------------------------------------------------- */
+
+body{
+    background-color: #e8e8e8;
+    font-family: "Arial";
+    font-size: 20px;
+    line-height: 36px;
+    color: #273d46;
+
+}
+.block{
+    margin: 70px auto;
+    width: 70%;
+}
+.block>h1{
+    font-size: 14px;
+    color: #000000;
+}
+ul{
+    margin-top: 20px;
+}
+ul>li{
+    background: url("../img/blue_icone.png") no-repeat left/20px;
+    padding-left: 25px;
+}
+ul>li:first-child{
+    text-decoration: line-through;
+    color: #273d46;
+}
+ul>li:first-child:hover{
+    text-decoration: blink;
+    color: #273d46;
+}
+ul>li:nth-child(2){
+    font-weight: 500;
+}
+ul>li:nth-child(2):hover{
+    font-weight: 300;
+    background: url("../img/red_icone.png") no-repeat left/20px;
+    color: #d55a5a;
+}
+ul>li:nth-child(3){
+    font-style: italic;
+}
+ul>li:nth-child(3):hover{
+    font-style: normal;
+}
+ul>li:last-child{
+    text-transform:uppercase ;
+}
+ul>li:last-child:hover{
+    text-transform: inherit;
+}
+form{
+        margin-top: 40px;
+}
+form>.classButton{
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    line-height: 40px;
+    color: #ffffff;
+    font-size: 14px;
+    background-color: #80b7b3;
+    padding: 5px 25px;
+    border-radius: 30px;
+
+}
+form>.classButton:hover{
+    background-color: #3a5855;
+}
+form>.classButton:active{
+    background-color: #818181;
+}
+form>.classButton>span{
+    font-weight: bold;
+    font-size: 25px;
+}
+form>.inputText{
+    font-size: 20px;
+    width: 290px;
+    height: 50px;
+    border: 1px solid #afafaf;
+    margin-top: 80px;
+}
+form>.inputText:focus{
+    font-size: 20px;
+    border:1px solid #7fbdd5;
+    box-shadow:0 0 15px rgba(127, 189, 213, 0.9) ;
+}
+
+
+
