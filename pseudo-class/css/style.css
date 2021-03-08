@@ -108,6 +108,7 @@ form>.classButton::after{
     margin-left: 5px;
 }
 form>.inputText{
+    padding-left: 15px;
     font-size: 20px;
     width: 290px;
     height: 50px;
